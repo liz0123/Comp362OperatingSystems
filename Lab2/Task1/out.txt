@@ -1,0 +1,6 @@
+The next line will cause core dump.
+ERROR: -1
+
+TEST1: input 0.9, 1 Result: 0
+TEST2: input 0, 0  Result:-1
+TEST3: input 10.5, 2  Result:5

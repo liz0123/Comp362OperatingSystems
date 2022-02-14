@@ -1,0 +1,37 @@
+Script started on Mon 05 Feb 2018 08:33:59 PM PST
+liz@liz-MS-7A72:~/Desktop/Lab2/Q3$ ./subu-ho -f sub2.txt -o out.txt
+sub replaced_char replacement_char [-f inputFile] [-o outputFile]
+liz@liz-MS-7A72:~/Desktop/Lab2/Q3$ ./subua.o -f sub2.txt -o out.txt
+liz@liz-MS-7A72:~/Desktop/Lab2/Q3$ ./subua.b -f sub.txtt -o out.txt
+replbce bll "b" with "b": bpple, grbpes, fruit, cbke, chocolbte chip, vbnillb ice-crebm cone.
+
+liz@liz-MS-7A72:~/Desktop/Lab2/Q3$ ./sub bhc -o out2.txt -o out.txt
+bannanas, able to eatewith a spoon... bearseareebig,tbeautiful,sleeping machines.liz@liz-MS-7A72:~/Desktop/Lab2/Q3$ ./sub a z
+aaaameeemmmmm auaw sa uai ajaur aius
+zzzz eeemmmmm zuzw sz uzi zjzur zius
+zen zan ammy taun
+zen zzn zmmy tzun
+liz@liz-MS-7A72:~/Desktop/Lab2/Q3$ sub aax < sub.txt > out3.txt
+No command 'sub' found, did you mean:
+ Command 'sup' from package 'sup' (universe)
+ Command 'sdb' from package 'sdb' (universe)
+ Command 'sb' from package 'lrzsz' (universe)
+ Command 'dub' from package 'dub' (universe)
+ Command 'qsub' from package 'gridengine-client' (universe)
+ Command 'qsub' from package 'torque-client-x11' (universe)
+ Command 'qsub' from package 'slurm-wlm-torque' (universe)
+ Command 'qsub' from package 'torque-client' (universe)
+ Command 'sur' from package 'subtle' (universe)
+ Command 'subs' from package 'libsubtitles-perl' (universe)
+ Command 'su' from package 'login' (main)
+ Command 'sum' from package 'coreutils' (main)
+sub: command not found
+liz@liz-MS-7A72:~/Desktop/Lab2/Q3$ 1@.1@/x < sub.txt > out3.txt
+liz@liz-MS-7A72:~/Desktop/Lab2/Q3$ ./sub d 1 < sub2.txt
+Di1 you know the average person can hear soun1s 1own to about 0 1B, the level of rustling leaves. Some people with very goo1 hearing can hear soun1s 1own to -15 1B. If a soun1 reaches 85 1B or stronger, it can cause permanent 1amage to your hearing.
+
+Also the fifth planet from the Sun is known as a bright wan1ering sun, an1 it is more than twice as massive as all the other planets combine1. Jupiter is the fourth brightest object in the sky (after the Sun, the Moon an1 Venus). It has been known since prehistoric times as a bright "wan1ering star".
+liz@liz-MS-7A72:~/Desktop/Lab2/Q3$ exit
+exit
+
+Script done on Mon 05 Feb 2018 08:40:50 PM PST
