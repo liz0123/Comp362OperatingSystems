@@ -41,3 +41,11 @@ Imagine a Queue with list of process name and burst time.
 Scheduling Algorithm searches at every time tick for the element to process.  
 No movements in Queue
 
+### Lab 6
+
+#### Task 1, 2, and 3
+
+Deadlock and the Dining Philosophers
+
+
+
