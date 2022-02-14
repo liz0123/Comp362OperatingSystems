@@ -1,0 +1,123 @@
+Script started on Tue Feb 27 18:39:26 2018
+bash-3.2$ gcc CPUsim.c -o run
+bash-3.2$ ./run <input.txt
+
+Scheduler RR
+
+T 0:
+CPU: 15
+queue:
+
+T 2:
+CPU: 13
+queue:
+process[2] = 6
+
+T 5:
+CPU: 10
+queue:
+process[2] = 6
+process[5] = 2
+
+T 10:
+CPU: 6
+queue:
+process[0] = 5
+process[5] = 2
+
+T 16:
+CPU: 2
+queue:
+process[0] = 5
+
+T 18:
+CPU: 81213504
+queue:
+process[0] = 5
+Segmentation fault: 11
+./runP<input.txtrunput.txt
+
+Scheduler FCFS
+
+T 0:
+CPU: 15
+queue:
+
+T 2:
+CPU: 13
+queue:
+process[2] = 6
+
+T 5:
+CPU: 10
+queue:
+process[2] = 6
+process[5] = 2
+
+T 15:
+CPU: 6
+queue:
+process[5] = 2
+
+T 21:
+CPU: 2
+queue:
+
+T 23:
+CPU: 0
+queue:
+Average Time Waited: 105
+bash-3.2$ ./run <input.txt
+
+Scheduler SJF
+
+T 0:
+CPU: 15
+queue:
+
+T 2:
+CPU: 13
+queue:
+process[2] = 6
+
+T 5:
+CPU: 10
+queue:
+process[2] = 6
+process[5] = 2
+
+T 15:
+CPU: 0
+queue:
+process[2] = 6
+process[5] = 2
+Average Time Waited: 0
+bash-3.2$ ./run <input.txt
+
+Scheduler SRTF
+
+T 0:
+CPU: 15
+queue:
+
+T 2:
+CPU: 6
+queue:
+process[0] = 13
+
+T 5:
+CPU: 2
+queue:
+process[0] = 13
+process[2] = 3
+
+T 7:
+CPU: 0
+queue:
+process[0] = 13
+process[2] = 3
+Average Time Waited: -40
+bash-3.2$ exit
+exit
+
+Script done on Tue Feb 27 18:41:13 2018

@@ -1,0 +1,52 @@
+Script started on Sun 25 Feb 2018 09:07:49 PM PST
+liz@liz-MS-7A72:~/Desktop/Lab5$ gcc avg.c -o run
+liz@liz-MS-7A72:~/Desktop/Lab5$ ./run
+Please enter alpha value (Enter -1 to exit)
+.5
+2 6 4 8 5 8 7
+Burstd 0 is: 2.00
+Tau 0 is: 2.00
+Burstd 1 is: 6.00
+Tau 1 is: 4.00
+Burstd 2 is: 4.00
+Tau 2 is: 4.00
+Burstd 3 is: 8.00
+Tau 3 is: 6.00
+Burstd 4 is: 5.00
+Tau 4 is: 5.50
+Burstd 5 is: 8.00
+Tau 5 is: 6.75
+Burstd 6 is: 7.00
+Tau 6 is: 6.88
+-1
+liz@liz-MS-7A72:~/Desktop/Lab5$ ./run
+Please enter alpha value (Enter -1 to exit)
+.75
+10 4 6 2 10 8 2 8 10 4 6
+Burstd 0 is: 10.00
+Tau 0 is: 10.00
+Burstd 1 is: 4.00
+Tau 1 is: 5.50
+Burstd 2 is: 6.00
+Tau 2 is: 5.88
+Burstd 3 is: 2.00
+Tau 3 is: 2.97
+Burstd 4 is: 10.00
+Tau 4 is: 8.24
+Burstd 5 is: 8.00
+Tau 5 is: 8.06
+Burstd 6 is: 2.00
+Tau 6 is: 3.52
+Burstd 7 is: 8.00
+Tau 7 is: 6.88
+Burstd 8 is: 10.00
+Tau 8 is: 9.22
+Burstd 9 is: 4.00
+Tau 9 is: 5.30
+Burstd 10 is: 6.00
+Tau 10 is: 5.83
+-1
+liz@liz-MS-7A72:~/Desktop/Lab5$ exit
+exit
+
+Script done on Sun 25 Feb 2018 09:09:13 PM PST
