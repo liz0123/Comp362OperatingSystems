@@ -1,0 +1,12 @@
+Script started on Tue Mar 27 20:51:04 2018
+bash-3.2$ gcc -fPIC -shared -nostartfiles -ooliblab3.so lab3.c
+lab3.c:55:3: warning: implicit declaration of function 'gettimeofday' is invalid in
+      C99 [-Wimplicit-function-declaration]
+		gettimeofday(&currentTime, NULL);
+		^
+1 warning generated.
+bash-3.2$ gcc -rdynamic -o client client.c -ldl
+bash-3.2$ exit
+exit
+
+Script done on Tue Mar 27 20:53:39 2018

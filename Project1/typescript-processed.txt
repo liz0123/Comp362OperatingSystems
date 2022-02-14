@@ -1,0 +1,98 @@
+Script started on Tue Apr 24 09:48:51 2018
+bash-3.2$ gcc *c -o run
+bash-3.2$ ./run
+...Creating File 'short.txt'
+...Creating File 'large.txt'
+...Creating Directory with Files 'signIn.txt' and 'signOut.txt'
+Display Vit Vector:
+
+Bit Vector:
+11111111
+00011111
+
+Display memory
+0: FILE
+	Name: /
+	Owner = 0
+	Access: 0
+	Reference block: 1
+1: INDEX
+	 Pointing to:
+2: FILE
+	Name: short.txt
+	Owner = 1
+	Access: 1111
+	Reference block: 3
+3: DATA
+	Lorem ipsum dol
+4: FILE
+	Name: large.txt
+	Owner = 8
+	Access: 1111
+	Reference block: 5
+5: INDEX
+	 Pointing to: 6,0,26980,12658,0,24573,23263,0,0,1111,9,
+6: DATA
+	Lorem ipsum dol
+7: DIRECTORY
+	Name: dir1
+	Owner = 9
+	Access: 1111
+	Reference block: 8
+8: INDEX
+	 Pointing to: 9,11,
+9: FILE
+	Name: signIn.txt
+	Owner = 9
+	Access: 1111
+	Reference block: 10
+10: DATA
+	Lorem ipsum dol
+11: FILE
+	Name: signOut.txt
+	Owner = 9
+	Access: 1111
+	Reference block: 12
+12: DATA
+	Lorem ipsum dol
+
+DELETE
+...Deleting File 'large.txt'
+
+Display Vit Vector:
+
+Bit Vector:
+10001111
+00011111
+
+
+..Deleting Directory : 'dir1'
+
+Display Vit Vector:
+
+Bit Vector:
+00001111
+00011000
+
+
+...Deleting File 'short.txt'
+
+Display Vit Vector:
+
+Bit Vector:
+00000011
+00011000
+
+Display memory
+0: FILE
+	Name: /
+	Owner = 0
+	Access: 0
+	Reference block: 1
+1: INDEX
+	 Pointing to:
+
+bash-3.2$ exit
+exit
+
+Script done on Tue Apr 24 09:49:06 2018

@@ -1,0 +1,122 @@
+Script started on Thu Mar 15 10:17:28 2018
+bash-3.2$ gcc -fPIC -shared -nostartfiles -o libgiveMeNum.so giveMeNum.c
+bash-3.2$ gcc -rdynamic -o testDyLibMain testDyLibMain.c -ldl
+bash-3.2$ nm libgiveMeNum.so
+0000000000000f30 T _giveMeNum
+		 U _printf
+		 U _scanf
+		 U dyld_stub_binder
+bash-3.2$ objdump -D libgiveMeNum.so
+
+libgiveMeNum.so:	file format Mach-O 64-bit x86-64
+
+Disassembly of section __TEXT,__text:
+_giveMeNum:
+     f30:	55	pushq	%rbp
+     f31:	48 89 e5	movq	%rsp, %rbp
+     f34:	48 83 ec 10	subq	$16, %rsp
+     f38:	48 8d 3d 5d 00 00 00	leaq	93(%rip), %rdi
+     f3f:	b0 00	movb	$0, %al
+     f41:	e8 24 00 00 00	callq	36
+     f46:	48 8d 3d 63 00 00 00	leaq	99(%rip), %rdi
+     f4d:	48 8d 75 fc	leaq	-4(%rbp), %rsi
+     f51:	89 45 f8	movl	%eax, -8(%rbp)
+     f54:	b0 00	movb	$0, %al
+     f56:	e8 15 00 00 00	callq	21
+     f5b:	8b 4d fc	movl	-4(%rbp), %ecx
+     f5e:	89 45 f4	movl	%eax, -12(%rbp)
+     f61:	89 c8	movl	%ecx, %eax
+     f63:	48 83 c4 10	addq	$16, %rsp
+     f67:	5d	popq	%rbp
+     f68:	c3	retq
+Disassembly of section __TEXT,__stubs:
+__stubs:
+     f6a:	ff 25 a0 00 00 00	jmpq	*160(%rip)
+     f70:	ff 25 a2 00 00 00	jmpq	*162(%rip)
+Disassembly of section __TEXT,__stub_helper:
+__stub_helper:
+     f78:	4c 8d 1d 89 00 00 00	leaq	137(%rip), %r11
+     f7f:	41 53	pushq	%r11
+     f81:	ff 25 79 00 00 00	jmpq	*121(%rip)
+     f87:	90	nop
+     f88:	68 00 00 00 00	pushq	$0
+     f8d:	e9 e6 ff ff ff	jmp	-26 <__stub_helper>
+     f92:	68 0e 00 00 00	pushq	$14
+     f97:	e9 dc ff ff ff	jmp	-36 <__stub_helper>
+Disassembly of section __TEXT,__cstring:
+__cstring:
+     f9c:	47 69 76 65 20 6d 65 20 	imull	$543517984, 101(%r14), %r14d
+     fa4:	61  <unknown>
+     fa5:	20 6e 75	andb	%ch, 117(%rsi)
+     fa8:	6d	insl	%dx, %es:(%rdi)
+     fa9:	62  <unknown>
+     faa:	65 72 3a	jb	58
+     fad:	20 0a	andb	%cl, (%rdx)
+     faf:	00 25  <unknown>
+     fb1:	64 00  <unknown>
+Disassembly of section __TEXT,__unwind_info:
+__unwind_info:
+     fb4:	01 00	addl	%eax, (%rax)
+     fb6:	00 00	addb	%al, (%rax)
+     fb8:	1c 00	sbbb	$0, %al
+     fba:	00 00	addb	%al, (%rax)
+     fbc:	00 00	addb	%al, (%rax)
+     fbe:	00 00	addb	%al, (%rax)
+     fc0:	1c 00	sbbb	$0, %al
+     fc2:	00 00	addb	%al, (%rax)
+     fc4:	00 00	addb	%al, (%rax)
+     fc6:	00 00	addb	%al, (%rax)
+     fc8:	1c 00	sbbb	$0, %al
+     fca:	00 00	addb	%al, (%rax)
+     fcc:	02 00	addb	(%rax), %al
+     fce:	00 00	addb	%al, (%rax)
+     fd0:	30 0f	xorb	%cl, (%rdi)
+     fd2:	00 00	addb	%al, (%rax)
+     fd4:	34 00	xorb	$0, %al
+     fd6:	00 00	addb	%al, (%rax)
+     fd8:	34 00	xorb	$0, %al
+     fda:	00 00	addb	%al, (%rax)
+     fdc:	6a 0f	pushq	$15
+     fde:	00 00	addb	%al, (%rax)
+     fe0:	00 00	addb	%al, (%rax)
+     fe2:	00 00	addb	%al, (%rax)
+     fe4:	34 00	xorb	$0, %al
+     fe6:	00 00	addb	%al, (%rax)
+     fe8:	03 00	addl	(%rax), %eax
+     fea:	00 00	addb	%al, (%rax)
+     fec:	0c 00	orb	$0, %al
+     fee:	01 00	addl	%eax, (%rax)
+     ff0:	10 00	adcb	%al, (%rax)
+     ff2:	01 00	addl	%eax, (%rax)
+     ff4:	00 00	addb	%al, (%rax)
+     ff6:	00 00	addb	%al, (%rax)
+     ff8:	00 00	addb	%al, (%rax)
+     ffa:	00 01	addb	%al, (%rcx)
+Disassembly of section __DATA,__nl_symbol_ptr:
+__nl_symbol_ptr:
+    1000:	00 00	addb	%al, (%rax)
+    1002:	00 00	addb	%al, (%rax)
+    1004:	00 00	addb	%al, (%rax)
+    1006:	00 00	addb	%al, (%rax)
+    1008:	00 00	addb	%al, (%rax)
+    100a:	00 00	addb	%al, (%rax)
+    100c:	00 00	addb	%al, (%rax)
+    100e:	00 00	addb	%al, (%rax)
+Disassembly of section __DATA,__la_symbol_ptr:
+__la_symbol_ptr:
+    1010:	88 0f	movb	%cl, (%rdi)
+    1012:	00 00	addb	%al, (%rax)
+    1014:	00 00	addb	%al, (%rax)
+    1016:	00 00	addb	%al, (%rax)
+    1018:	92	xchgl	%edx, %eax
+    1019:	0f 00 00	sldtw	(%rax)
+    101c:	00 00	addb	%al, (%rax)
+    101e:	00 00	addb	%al, (%rax)
+bash-3.2$ readelf -D libgiveMeNum.so
+bash: readelf: command not found
+bash-3.2$ readelf -hllibgiveMeNum.so
+bash: readelf: command not found
+bash-3.2$ exit
+exit
+
+Script done on Thu Mar 15 10:20:28 2018

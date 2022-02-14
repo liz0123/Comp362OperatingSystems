@@ -1,0 +1,21 @@
+Script started on Tue Apr  3 22:51:43 2018
+[?1034hbash-3.2$ gcc *c -run[K[K[Ko run
+bash-3.2$ ./run
+Playing with pages of size 4096
+Enter file name: loremLpsum.txt
+Enter file offset between 0 and 3193: 20
+Byte at offset 20 is 't'
+With what would you like to replace the character: r
+Byte at offset 20 is 'r'
+
+Would you like to continue: (1(yes)/0(no)): 1
+Enter file offset between 0 and 3193: 19
+Byte at offset 19 is 'i'
+With what would you like to replace the character: u
+Byte at offset 19 is 'u'
+
+Would you like to continue: (1(yes)/0(no)): 0
+bash-3.2$ exit
+exit
+
+Script done on Tue Apr  3 22:52:27 2018

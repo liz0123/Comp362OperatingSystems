@@ -1,0 +1,146 @@
+Script started on Tue Mar 27 15:38:45 2018
+[?1034hbash-3.2$ exit./rungcc client.c -L. -llab3 -o run[C[C[C[C[C[C[C[C[C[C[16Par t liblab3.a[C[C[C[C[C[C[C[C[C[C[2Pnm[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Car rcs liblab3.a lab3.o[C[C[C[C[C[C[C[C[C[Cgcc -c lab3.c -o[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[10P*c -o run
+[1mlab3.c:55:3: [0m[0;1;35mwarning: [0m[1mimplicit declaration of function 'gettimeofday' is invalid
+      in C99 [-Wimplicit-function-declaration][0m
+                gettimeofday(&currentTime, NULL);
+[0;1;32m                ^
+[0m1 warning generated.
+bash-3.2$ gcc *c -o run[C[C[C[C[C[C[C[C[C[Cexit[K./rungcc client.c -L. -llab3 -o run[C[C[C[C[C[C[C[C[C[C[16Par t liblab3.a[C[C[C[C[C[C[C[C[C[C[2Pnm[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Car rcs liblab3.a lab3.o[C[C[C[C[C[C[C[C[C[Cgcc -c lab3.c -o[C[C[C[C[C[C[C
+[1mlab3.c:55:3: [0m[0;1;35mwarning: [0m[1mimplicit declaration of function 'gettimeofday' is invalid
+      in C99 [-Wimplicit-function-declaration][0m
+                gettimeofday(&currentTime, NULL);
+[0;1;32m                ^
+[0m1 warning generated.
+bash-3.2$ gcc -c lab3.c -o lab3.o[C[C[C[C[C[C[C[C[C[C[C[C[C[C[10P*c -o run[C[C[C[C[C[C[C[C[C[Cexit[K./rungcc client.c -L. -llab3 -o run[C[C[C[C[C[C[C[C[C[C[16Par t liblab3.a[C[C[C[C[C[C[C[C[C[C[2Pnm[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Car rcs liblab3.a lab3.o
+bash-3.2$ ar rcs liblab3.a lab3.o[C[C[C[C[C[C[C[C[C[Cgcc -c lab3.c -o[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[10P*c -o run[C[C[C[C[C[C[C[C[C[Cexit[K./rungcc client.c -L. -llab3 -o run[C[C[C[C[C[C[C[C[C[C[16Par t liblab3.a[C[C[C[C[C[C[C[C[C[C[2Pnm[C[C[C[C[C[C[C[C[C[C
+
+liblab3.a(lab3.o):
+0000000000000000 T _displayTable
+                 U _free
+00000000000001c0 T _getOldestTime
+                 U _gettimeofday
+0000000000000360 T _initInverted
+                 U _malloc
+                 U _printf
+                 U _rand
+0000000000000510 T _releaseInverted
+0000000000000120 T _searchInvTable
+                 U _srand
+                 U _time
+0000000000000250 T _translate
+bash-3.2$ nm liblab3.a[C[C[C[C[C[C[C[C[C[Car rcs liblab3.a lab3.o[C[C[C[C[C[C[C[C[C[Cgcc -c lab3.c -o[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[10P*c -o run[C[C[C[C[C[C[C[C[C[Cexit[K./rungcc client.c -L. -llab3 -o run[C[C[C[C[C[C[C[C[C[C[16Par t liblab3.a
+__.SYMDEF SORTED
+lab3.o
+bash-3.2$ ar t liblab3.a[C[C[C[C[C[C[C[C[C[C[2Pnm[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Car rcs liblab3.a lab3.o[C[C[C[C[C[C[C[C[C[Cgcc -c lab3.c -o[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[10P*c -o run[C[C[C[C[C[C[C[C[C[Cexit[K./rungcc client.c -L. -llab3 -o run
+bash-3.2$ ./run
+Enter memory size: 20
+Enter frame size: 4
+                 pid                page          time stamp
+                   0                   0                   0
+                   2                   7    1522190370940475
+                   0                   0                   0
+                   0                   0                   0
+                   0                   0                   0
+Enter < pid page offset > : 3 5 3
+                 pid                page          time stamp
+                   3                   5    1522190379464861
+                   2                   7    1522190370940475
+                   0                   0                   0
+                   0                   0                   0
+                   0                   0                   0
+Index of frame returned is 0
+Physical Address: 3
+
+Would you like to continue? (yes/no): yes
+Enter < pid page offset > : 1 3 2
+                 pid                page          time stamp
+                   3                   5    1522190379464861
+                   2                   7    1522190370940475
+                   1                   3    1522190384132543
+                   0                   0                   0
+                   0                   0                   0
+Index of frame returned is 2
+Physical Address: 12
+
+Would you like to continue? (yes/no): yes
+Enter < pid page offset > : 2 2 3
+                 pid                page          time stamp
+                   3                   5    1522190379464861
+                   2                   7    1522190370940475
+                   1                   3    1522190384132543
+                   2                   2    1522190396538977
+                   0                   0                   0
+Index of frame returned is 3
+Physical Address: 18
+
+Would you like to continue? (yes/no): ye
+Enter < pid page offset > : 1 4 2
+                 pid                page          time stamp
+                   3                   5    1522190379464861
+                   2                   7    1522190370940475
+                   1                   3    1522190384132543
+                   2                   2    1522190396538977
+                   1                   4    1522190421700474
+Index of frame returned is 4
+Physical Address: 22
+
+Would you like to continue? (yes/no): yes
+Enter < pid page offset > : 3 5 3
+Index of frame returned is 0
+Physical Address: 3
+
+Would you like to continue? (yes/no): yes
+Enter < pid page offset > : 2 2 4
+Index of frame returned is 3
+Physical Address: 19
+
+Would you like to continue? (yes/no): yes
+Enter < pid page offset > : 4 2 7
+                 pid                page          time stamp
+                   3                   5    1522190379464861
+                   4                   2    1522190457298908
+                   1                   3    1522190384132543
+                   2                   2    1522190396538977
+                   1                   4    1522190421700474
+Index of frame returned is 1
+Physical Address: 12
+
+Would you like to continue? (yes/no): yes
+Enter < pid page offset > : 5 3 9
+                 pid                page          time stamp
+                   5                   3    1522190508113291
+                   4                   2    1522190457298908
+                   1                   3    1522190384132543
+                   2                   2    1522190396538977
+                   1                   4    1522190421700474
+Index of frame returned is 0
+Physical Address: 9
+
+Would you like to continue? (yes/no): yes
+Enter < pid page offset > : 7 6 1
+                 pid                page          time stamp
+                   5                   3    1522190508113291
+                   4                   2    1522190457298908
+                   7                   6    1522190522599509
+                   2                   2    1522190396538977
+                   1                   4    1522190421700474
+Index of frame returned is 2
+Physical Address: 11
+
+Would you like to continue? (yes/no): yes
+Enter < pid page offset > : 1 4   2 3
+                 pid                page          time stamp
+                   5                   3    1522190508113291
+                   4                   2    1522190457298908
+                   7                   6    1522190522599509
+                   1                   2    1522190558634562
+                   1                   4    1522190421700474
+Index of frame returned is 3
+Physical Address: 18
+
+Would you like to continue? (yes/no): no
+
+bash-3.2$ exit
+exit
+
+Script done on Tue Mar 27 15:42:49 2018

@@ -1,0 +1,12 @@
+Script started on Tue Mar 27 20:51:04 2018
+[?1034hbash-3.2$ g[Kgcc -fPIC -shared -nostartfiles  -o[K[K[K[K -o liblabe[K3.c[Kso lab3.c
+[1mlab3.c:55:3: [0m[0;1;35mwarning: [0m[1mimplicit declaration of function 'gettimeofday' is invalid in
+      C99 [-Wimplicit-function-declaration][0m
+                gettimeofday(&currentTime, NULL);
+[0;1;32m                ^
+[0m1 warning generated.
+bash-3.2$ gcc -rdynamic -o client cline[K[Kent.c -ldl
+bash-3.2$ exit
+exit
+
+Script done on Tue Mar 27 20:53:39 2018
