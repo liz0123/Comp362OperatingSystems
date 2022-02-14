@@ -1,0 +1,87 @@
+Script started on Mon Mar 12 16:18:46 2018
+bash-3.2$ gcc adjMatrix.c -o run
+bash-3.2$ ./run
+Enter command: display
+Unable to display adjacency matrix. There are no vertices yet
+Enter command: help
+
+The following commands are available for use:
+	add vertex <vertex_name>
+	add edge <from_vertex_name> <to_vertex_name>
+	display
+	check
+	help
+	quit
+Angled brackets such as: <info> represent user defined information.
+
+Enter command: add vertex Aa
+Added a new vertex named Aa at index 0
+Enter command: add vertex Aa
+There is already a vertex with the name Aa
+Enter command: add vertex Bbb
+Added a new vertex named Bbb at index 1
+Enter command: displaytex
+
+		  Aa	   Bbb
+	Aa	   0	     0
+       Bbb	   0	     0
+Enter command: add vertex Cccc
+Added a new vertex named Cccc at index 2
+Enter command: add vertex Ddddd
+Added a new vertex named Ddddd at index 3
+Enter command: add edge Aa Aa
+A vertex cannot be connected to itself
+Enter command: add edgeeAa Xyz
+one or more of those vertices does not exist
+Enter command: add edge Aa Bbb
+Added an edge from vertex Aa to vertex Bbb
+Enter command: display
+
+		  Aa	   Bbb	    Cccc     Ddddd
+	Aa	   0	     1	       0	 0
+       Bbb	   0	     0	       0	 0
+      Cccc	   0	     0	       0	 0
+     Ddddd	   0	     0	       0	 0
+Enter command: check
+>> NO DEADLOCK <<
+Enter command: add edge Bbb Cccc
+Added an edge from vertex Bbb to vertex Cccc
+Enter command: add edge Cccc Ddddd
+Added an edge from vertex Cccc to vertex Ddddd
+Enter command: display
+
+		  Aa	   Bbb	    Cccc     Ddddd
+	Aa	   0	     1	       0	 0
+       Bbb	   0	     0	       1	 0
+      Cccc	   0	     0	       0	 1
+     Ddddd	   0	     0	       0	 0
+Enter command: check
+>> NO DEADLOCK <<
+Enter command: add edge Ddddd Aa
+Added an edge from vertex Ddddd to vertex Aa
+Enter command: display
+
+		  Aa	   Bbb	    Cccc     Ddddd
+	Aa	   0	     1	       0	 0
+       Bbb	   0	     0	       1	 0
+      Cccc	   0	     0	       0	 1
+     Ddddd	   1	     0	       0	 0
+Enter command: check
+>> DEADLOCK <<
+Enter command: remove edge Ddddd Aa
+Removed the edge form vertex Ddddd to vertex Aa
+Enter command: display
+
+		  Aa	   Bbb	    Cccc     Ddddd
+	Aa	   0	     1	       0	 0
+       Bbb	   0	     0	       1	 0
+      Cccc	   0	     0	       0	 1
+     Ddddd	   0	     0	       0	 0
+Enter command: check
+>> NO DEADLOCK <<
+Enter command: quit
+program exiting, BYE FELICIA!
+bash-3.2$ exit
+exit
+
+Script done on Mon Mar 12 16:22:57 2018
