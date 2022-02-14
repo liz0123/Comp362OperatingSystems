@@ -1,0 +1,97 @@
+Script started on Mon Mar  5 18:21:32 2018
+bash-3.2$ gccutask2.c -o run -lpthread
+./run32210gcc task2.c -o run -lpthread
+Start a dinner for 2 diners
+Philsopher no. 0 sits at the table.
+Philsopher no. 1 sits at the table.
+Philsopher no. 0 tries to grab chopstick 0
+Philsopher no. 0 has grabbed chopstick 0
+Philsopher no. 1 tries to grab chopstick 1
+Philsopher no. 1 has grabbed chopstick 1
+Philsopher no. 0 tries to grab chopstic 1
+Philsopher no. 1 tries to grab chopstic 0
+Philsopher no. 1 has *returned* chopstick 1
+Philsopher no. 1 tries to grab chopstick 1
+Philsopher no. 1 has grabbed chopstick 1
+Philsopher no. 1 tries to grab chopstic 0
+Philsopher no. 0 has *returned* chopstick 0
+Philsopher no. 0 tries to grab chopstick 0
+Philsopher no. 0 has grabbed chopstick 0
+Philsopher no. 0 tries to grab chopstic 1
+Philsopher no. 1 has *returned* chopstick 1
+Philsopher no. 1 tries to grab chopstick 1
+Philsopher no. 1 has grabbed chopstick 1
+Philsopher no. 1 tries to grab chopstic 0
+Philsopher no. 1 has *returned* chopstick 1
+Philsopher no. 1 tries to grab chopstick 1
+Philsopher no. 1 has grabbed chopstick 1
+Philsopher no. 1 tries to grab chopstic 0
+Philsopher no. 0 has *returned* chopstick 0
+Philsopher no. 0 tries to grab chopstick 0
+Philsopher no. 0 has grabbed chopstick 0
+Philsopher no. 0 tries to grab chopstic 1
+Philsopher no. 1 has *returned* chopstick 1
+Philsopher no. 1 tries to grab chopstick 1
+Philsopher no. 1 has grabbed chopstick 1
+Philsopher no. 0 has *returned* chopstick 0
+Philsopher no. 0 tries to grab chopstick 0
+Philsopher no. 0 has grabbed chopstick 0
+Philsopher no. 1 tries to grab chopstic 0
+Philsopher no. 0 tries to grab chopstic 1
+Philsopher no. 1 has *returned* chopstick 1
+Philsopher no. 1 tries to grab chopstick 1
+Philsopher no. 1 has grabbed chopstick 1
+Philsopher no. 0 has *returned* chopstick 0
+Philsopher no. 0 tries to grab chopstick 0
+Philsopher no. 0 has grabbed chopstick 0
+Philsopher no. 1 tries to grab chopstic 0
+Philsopher no. 0 tries to grab chopstic 1
+Philsopher no. 1 has *returned* chopstick 1
+Philsopher no. 1 tries to grab chopstick 1
+Philsopher no. 1 has grabbed chopstick 1
+Philsopher no. 0 has *returned* chopstick 0
+Philsopher no. 0 tries to grab chopstick 0
+Philsopher no. 0 has grabbed chopstick 0
+Philsopher no. 0 tries to grab chopstic 1
+Philsopher no. 1 tries to grab chopstic 0
+Philsopher no. 1 has *returned* chopstick 1
+Philsopher no. 1 tries to grab chopstick 1
+Philsopher no. 1 has grabbed chopstick 1
+Philsopher no. 0 has *returned* chopstick 0
+Philsopher no. 0 tries to grab chopstick 0
+Philsopher no. 0 has grabbed chopstick 0
+Philsopher no. 0 tries to grab chopstic 1
+Philsopher no. 1 tries to grab chopstic 0
+Philsopher no. 1 has *returned* chopstick 1
+Philsopher no. 1 tries to grab chopstick 1
+Philsopher no. 1 has grabbed chopstick 1
+Philsopher no. 1 tries to grab chopstic 0
+Philsopher no. 0 has *returned* chopstick 0
+Philsopher no. 0 tries to grab chopstick 0
+Philsopher no. 0 has grabbed chopstick 0
+Philsopher no. 0 tries to grab chopstic 1
+Philsopher no. 1 has *returned* chopstick 1
+Philsopher no. 0 has *returned* chopstick 0
+Philsopher no. 1 tries to grab chopstick 1
+Philsopher no. 0 tries to grab chopstick 0
+Philsopher no. 1 has grabbed chopstick 1
+Philsopher no. 0 has grabbed chopstick 0
+Philsopher no. 0 tries to grab chopstic 1
+Philsopher no. 1 tries to grab chopstic 0
+Philsopher no. 0 has *returned* chopstick 0
+Philsopher no. 0 tries to grab chopstick 0
+Philsopher no. 0 has grabbed chopstick 0
+Philsopher no. 1 has *returned* chopstick 1
+Philsopher no. 0 tries to grab chopstic 1
+Philsopher no. 0 grabbed chopstick 1
+Philsopher no. 0 eating
+Philsopher no. 0 stopped eating
+Philsopher no. 0 has returned chopstick 0
+Philsopher no. 0 has returned chopstick 1
+Philsopher no. 0 finished turn 10
+>>>>>> Philsopher no. 0 finished meal. <<<<<<
+Dinner is no more.
+exitn32210gccutask2.c -o run -lpthread
+exit
+
+Script done on Mon Mar	5 18:21:46 2018

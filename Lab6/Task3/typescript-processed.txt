@@ -1,0 +1,153 @@
+Script started on Mon Mar  5 18:32:16 2018
+bash-3.2$ gcc task3.c -o run -lpthread
+bash-3.2$ ./run
+Start a dinner for 5 diners
+Philsopher no. 0 sits at the table.
+Philsopher no. 1 sits at the table.
+Philsopher no. 2 sits at the table.
+Philsopher no. 3 sits at the table.
+Philsopher no. 4 sits at the table.
+Philsopher no. 4 trys to pick up chopsticks
+Philsopher no. 4 trys to eat
+Philsopher no. 4 is eating
+Philsopher no. 0 trys to pick up chopsticks
+Philsopher no. 0 trys to eat
+Philsopher no. 2 trys to pick up chopsticks
+Philsopher no. 2 trys to eat
+Philsopher no. 2 is eating
+Philsopher no. 3 trys to pick up chopsticks
+Philsopher no. 3 trys to eat
+Philsopher no. 1 trys to pick up chopsticks
+Philsopher no. 1 trys to eat
+Philsopher no. 4 puts down chopsticks.
+Philsopher no. 3 trys to eat
+Philsopher no. 0 trys to eat
+Philsopher no. 0 is eating
+Philsopher no. 4 is done eating.
+Philsopher no. 4 trys to pick up chopsticks
+Philsopher no. 4 trys to eat
+Philsopher no. 2 puts down chopsticks.
+Philsopher no. 1 trys to eat
+Philsopher no. 3 trys to eat
+Philsopher no. 3 is eating
+Philsopher no. 2 is done eating.
+Philsopher no. 0 puts down chopsticks.
+Philsopher no. 4 trys to eat
+Philsopher no. 1 trys to eat
+Philsopher no. 1 is eating
+Philsopher no. 0 is done eating.
+Philsopher no. 3 puts down chopsticks.
+Philsopher no. 2 trys to eat
+Philsopher no. 4 trys to eat
+Philsopher no. 4 is eating
+Philsopher no. 3 is done eating.
+Philsopher no. 0 trys to pick up chopsticks
+Philsopher no. 0 trys to eat
+Philsopher no. 3 trys to pick up chopsticks
+Philsopher no. 2 trys to pick up chopsticks
+Philsopher no. 3 trys to eat
+Philsopher no. 2 trys to eat
+Philsopher no. 1 puts down chopsticks.
+Philsopher no. 0 trys to eat
+Philsopher no. 2 trys to eat
+Philsopher no. 4 puts down chopsticks.
+Philsopher no. 2 is eating
+Philsopher no. 1 is done eating.
+Philsopher no. 3 trys to eat
+Philsopher no. 0 trys to eat
+Philsopher no. 0 is eating
+Philsopher no. 4 is done eating.
+Philsopher no. 0 puts down chopsticks.
+Philsopher no. 4 trys to eat
+Philsopher no. 1 trys to eat
+Philsopher no. 0 is done eating.
+Philsopher no. 4 trys to pick up chopsticks
+Philsopher no. 4 trys to eat
+Philsopher no. 4 is eating
+Philsopher no. 1 trys to pick up chopsticks
+Philsopher no. 1 trys to eat
+Philsopher no. 0 trys to pick up chopsticks
+Philsopher no. 0 trys to eat
+Philsopher no. 2 puts down chopsticks.
+Philsopher no. 1 trys to eat
+Philsopher no. 1 is eating
+Philsopher no. 3 trys to eat
+Philsopher no. 2 is done eating.
+Philsopher no. 4 puts down chopsticks.
+Philsopher no. 3 trys to eat
+Philsopher no. 3 is eating
+Philsopher no. 0 trys to eat
+Philsopher no. 4 is done eating.
+Philsopher no. 3 puts down chopsticks.
+Philsopher no. 2 trys to eat
+Philsopher no. 4 trys to eat
+Philsopher no. 3 is done eating.
+Philsopher no. 4 trys to pick up chopsticks
+Philsopher no. 2 trys to pick up chopsticks
+Philsopher no. 4 trys to eat
+Philsopher no. 4 is eating
+Philsopher no. 2 trys to eat
+Philsopher no. 3 trys to pick up chopsticks
+Philsopher no. 3 trys to eat
+Philsopher no. 1 puts down chopsticks.
+Philsopher no. 0 trys to eat
+Philsopher no. 2 trys to eat
+Philsopher no. 2 is eating
+Philsopher no. 1 is done eating.
+Philsopher no. 2 puts down chopsticks.
+Philsopher no. 1 trys to pick up chopsticks
+Philsopher no. 1 trys to eat
+Philsopher no. 4 puts down chopsticks.
+Philsopher no. 3 trys to eat
+Philsopher no. 2 is done eating.
+Philsopher no. 1 trys to eat
+Philsopher no. 1 is eating
+Philsopher no. 3 trys to eat
+Philsopher no. 3 is eating
+Philsopher no. 0 trys to eat
+Philsopher no. 4 is done eating.
+Philsopher no. 2 trys to pick up chopsticks
+Philsopher no. 2 trys to eat
+Philsopher no. 3 puts down chopsticks.
+Philsopher no. 2 trys to eat
+Philsopher no. 4 trys to eat
+Philsopher no. 3 is done eating.
+Philsopher no. 1 puts down chopsticks.
+Philsopher no. 0 trys to eat
+Philsopher no. 0 is eating
+Philsopher no. 2 trys to eat
+Philsopher no. 2 is eating
+Philsopher no. 1 is done eating.
+Philsopher no. 3 trys to pick up chopsticks
+Philsopher no. 3 trys to eat
+Philsopher no. 0 puts down chopsticks.
+Philsopher no. 4 trys to eat
+Philsopher no. 1 trys to eat
+Philsopher no. 0 is done eating.
+Philsopher no. 1 trys to pick up chopsticks
+Philsopher no. 1 trys to eat
+Philsopher no. 0 trys to pick up chopsticks
+Philsopher no. 2 puts down chopsticks.
+Philsopher no. 0 trys to eat
+Philsopher no. 0 is eating
+Philsopher no. 1 trys to eat
+Philsopher no. 3 trys to eat
+Philsopher no. 3 is eating
+Philsopher no. 2 is done eating.
+Philsopher no. 0 puts down chopsticks.
+Philsopher no. 4 trys to eat
+Philsopher no. 3 puts down chopsticks.
+Philsopher no. 1 trys to eat
+Philsopher no. 1 is eating
+Philsopher no. 0 is done eating.
+Philsopher no. 2 trys to eat
+Philsopher no. 4 trys to eat
+Philsopher no. 3 is done eating.
+Philsopher no. 1 puts down chopsticks.
+Philsopher no. 0 trys to eat
+Philsopher no. 2 trys to eat
+Philsopher no. 1 is done eating.
+bash-3.2$ exit
+exit
+
+Script done on Mon Mar	5 18:32:34 2018

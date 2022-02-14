@@ -1,0 +1,4 @@
+Lab 6 Task 2 comments
+For this lab I just ran 2 philosopher and 10 rounds because this values where giving me problem with task 1’s code. After run, the program was able to execute without coming to a standstill.
+
+-Liz

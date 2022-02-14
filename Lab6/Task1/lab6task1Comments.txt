@@ -1,0 +1,5 @@
+Lab 6 Task 1 Commentary
+
+I notices that when I entered number like 2 philosophers and 10 rounds, the program would reach a state where every philosopher would be holding a chopsticks but no one was able to put it done. When I added the usleep(DELAY), the philosophers reaches this dilemma faster. 
+
+-liz
